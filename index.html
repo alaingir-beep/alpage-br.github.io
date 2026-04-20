@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alpage Inteligência</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0;
+    }
+    .card img {
+      width: min(420px, 85vw);
+    }
+    .divider {
+      width: 1px;
+      height: 36px;
+      background: #ccc;
+      margin: 28px 0;
+    }
+    .email-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .email-row svg {
+      width: 22px;
+      height: 22px;
+      flex-shrink: 0;
+    }
+    .email-row a {
+      font-size: 16px;
+      color: #333;
+      text-decoration: none;
+      letter-spacing: 0.3px;
+    }
+    .email-row a:hover {
+      color: #b8975a;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="logo.png" alt="Alpage Inteligência">
+    <div class="divider"></div>
+    <div class="email-row">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="1.5">
+        <rect x="2" y="4" width="20" height="16" rx="2"/>
+        <path d="M2 7l10 7 10-7"/>
+      </svg>
+      <a href="mailto:alain@alpage.com.br">alain@alpage.com.br</a>
+    </div>
+  </div>
+</body>
+</html>
